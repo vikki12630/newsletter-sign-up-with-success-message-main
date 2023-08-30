@@ -25,7 +25,8 @@ btn.addEventListener('click',function(){
     else{
         email.style.backgroundColor = "hsla(4, 100%, 67%, 0.268)";
         email.style.border = "hsl(4, 100%, 67%);"
-        error.style.display = "block"
+        error.style.display = "block";
+        email.value = "";
     }
 
 })
