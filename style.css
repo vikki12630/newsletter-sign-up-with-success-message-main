@@ -174,7 +174,7 @@ p{
     display: none;
 }
 
-@media (width < 450px){
+@media (width < 600px){
     #pcimg{
         display: none;
     }
