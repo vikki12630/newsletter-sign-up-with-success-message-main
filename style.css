@@ -21,8 +21,8 @@ p{
 
 .newsletterTemplate{
     background-color:hsl(0, 0%, 100%);
-    width: 60%;
-    height: 77%;
+    width: 50%;
+    height: 70%;
     display: flex;
     border-radius: 25px;
 }
@@ -31,18 +31,15 @@ p{
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
 }
 
 .detailsAndSignup{
-    height: 93%;
-    width: 84%;
-    margin: 0px 20px;
+    height: 90%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 50px 0;
-    position: relative;
+    gap: 3%;
 }
 
 .detailsAndSignup h1{
@@ -55,24 +52,24 @@ p{
     align-items: center;
 }
 .checks img{
-    margin-right: 15px;
+    margin-right: 2%;
 }
 
 .signupimg{
     width: 50%;
     display: flex;
+    justify-content: end;
 }
 .signupimg img{
-    object-fit: contain;    
+    object-fit: cover;    
     height: 90%;
-    width: 90%;
-    margin: auto;
+    margin: 7% 7% 7% 7%;
 }
 
 .bulletPoints{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 3%;
 }
 
 .emailsection input{
@@ -179,33 +176,37 @@ p{
 
     #mobileimg{
         display: block;
-        width: 100%;
-        height: 284px;
+        margin: 0 auto;
+
     }
 
     .container{
-        width: 375px;
+        width: 100vw;
         height: 100vh;
     }
     .newsletterTemplate{
-        width: 375px;
+        width: 100vw;
         height: 100vh;
         border-radius: 0;
         flex-direction: column-reverse;
     }
 
     .signupimg{
-        width: 100%;
-        height: 30%;
+        width: 337.5px;
+        margin: 0 auto;
     }
 
     .left{
-        width: 100%;
-        height: 75%;
+        width: 337.5px;
+        margin: 0 auto;
+    }
+
+    .checks{
+        margin-bottom: 3.5%;
     }
 
     .detailsAndSignup{
-        height: 95%;
+        height: 100%;
         width: 100%;
         gap: 20px;
     }
@@ -215,7 +216,6 @@ p{
         font-size: 2.4rem;
     }
     .bulletPoints{
-        gap: 15px;
     }
     .submit button{
         bottom: 0;
